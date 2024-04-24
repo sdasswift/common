@@ -23,6 +23,21 @@ module.exports = {
       singleton: true,
       eager: true,
       requiredVersion: dependencies['jotai'],
-    }
+    },
+    '@mui/material': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@mui/material'],
+    },
+    '@emotion/react': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@emotion/react'],
+    },
+    '@emotion/styled': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@emotion/styled'],
+    },
   },
 };
